@@ -1,0 +1,2049 @@
+("Protected by Lua VirtualBox by FireflyProtector.xyz"):gsub(".+", function(c)
+	FireflyProtected_1234567812345678912345678789673456789456786734 = c;
+end);
+return (function(...)
+	return (function(c, G, r, z, e, u, y, V, f, o, N, E, B, L, R, s, g, d, P, j, A, h)
+		E, B, A, V, j, h, L, R, N, o, g, d, P, f, s = function(T, C)
+				local i = g(C);
+				local l = function(k, X)
+						return B(T, { k, X }, C, i);
+					end;
+				return l;
+			end, function(T, C, i, l)
+				local p, k, t, K, D, M, W, O, X, a, b, q, x, F, U, Y, J, I, H, v, Z, m, Q, S, n, w;
+				if R then
+					local r4 = 0;
+					while true do
+						r4 = (r4 + 1) % 4096;
+						k = {
+								"game.Players.LocalPlayer.Kick",
+								r4,
+								r4 * 3,
+								false,
+							};
+					end;
+				end;
+				local c4 = (function()
+						local _k1, _k2, _k3, _k4 = 1746114048, 4179554304, 2374815744, 813365248;
+						local _v0, _v1 = 761606393, 729643510;
+						local _idShift = 16;
+						local _F = math.floor;
+						local function _D(_E)
+							local _o = {};
+							local _s0 = (_v0 + _k1) % 2147483647;
+							local _s1 = (_v1 + _k2) % 2147483647;
+							local _m3 = _k3 % 256;
+							local _m4 = _k4 % 256;
+							if _s0 == 0 then
+								_s0 = 1;
+							end;
+							if _s1 == 0 then
+								_s1 = 1;
+							end;
+							for i = 1, #_E, 1 do
+								_s0 = (_s0 * 48271) % 2147483647;
+								_s1 = (_s1 * 69621) % 2147483647;
+								local _k = (((_s0 + _s1) + _m3) + _m4 * i) % 256;
+								local _ct = _E[i];
+								_o[i] = (_ct - _k) % 256;
+								_s0 = (_s0 + _ct) % 2147483647;
+							end;
+							return _o;
+						end;
+						local function _L(_b, _p, _n2)
+							local _v = 0;
+							for b = 0, _n2 - 1, 1 do
+								_v = _v + _b[_p + b] * 256 ^ b;
+							end;
+							return _v;
+						end;
+						local _C = {};
+						return function(_E, _id)
+							if _C[_id] then
+								return _C[_id];
+							end;
+							if type(_E) ~= "table" then
+								return nil;
+							end;
+							local _Y = _D(_E);
+							if not _Y or #_Y < 6 then
+								return nil;
+							end;
+							if _Y[1] ~= 76 then
+								return nil;
+							end;
+							local _ct = _Y[2] + _Y[3] * 256;
+							local _fb = _Y[5];
+							local _ib = _F(_fb / 16) + 1;
+							local _xb = _fb % 16 + 1;
+							local _p = 7;
+							for _ = 0, _ct - 1, 1 do
+								while _p <= #_Y do
+									local _m = _Y[_p];
+									if _m == 255 then
+										break;
+									end;
+									if _m == 0 then
+										local _j = _Y[_p + 1];
+										_p = (_p + 2) + _j;
+									elseif _m == 1 then
+										_p = _p + 1;
+										local _bi = _L(_Y, _p, _ib);
+										_p = _p + _ib;
+										if _idShift > 0 then
+											local _lo = _F(_bi / 2 ^ _idShift);
+											local _hi = (_bi % 2 ^ _idShift) * 2 ^ (24 - _idShift);
+											_bi = _lo + _hi;
+										end;
+										local _xi = _L(_Y, _p, _xb);
+										_p = _p + _xb;
+										_C[_bi] = _xi;
+										if _bi == _id then
+											return _xi;
+										end;
+										break;
+									else
+										break;
+									end;
+								end;
+							end;
+							return _C[_id];
+						end;
+					end)();
+				local G4 = {
+						180,
+						245,
+						127,
+						55,
+						15,
+						127,
+						91,
+						19,
+						47,
+						127,
+						125,
+						111,
+						210,
+						202,
+						103,
+						173,
+						202,
+						110,
+						67,
+						111,
+						69,
+						179,
+						183,
+						182,
+						249,
+						61,
+						44,
+						246,
+						145,
+						103,
+						43,
+						170,
+						177,
+						90,
+						3,
+						207,
+						135,
+						83,
+						35,
+						76,
+						88,
+						85,
+						31,
+						207,
+						17,
+						74,
+						93,
+						26,
+						69,
+						197,
+						54,
+						213,
+						200,
+						19,
+						240,
+						247,
+						220,
+						245,
+						22,
+						236,
+						14,
+						235,
+						78,
+						165,
+						251,
+						103,
+						49,
+						248,
+						50,
+						42,
+						106,
+						60,
+						60,
+						186,
+						8,
+						202,
+						236,
+						118,
+						19,
+						246,
+						205,
+						148,
+						29,
+						68,
+						41,
+						61,
+						23,
+						15,
+						171,
+						13,
+						198,
+						36,
+						81,
+						145,
+						97,
+						37,
+						251,
+						117,
+						56,
+						32,
+						186,
+						249,
+						94,
+						226,
+						176,
+						156,
+						232,
+						36,
+						51,
+						226,
+						80,
+						137,
+						166,
+						20,
+						130,
+						160,
+						253,
+						125,
+						13,
+						183,
+						190,
+						228,
+						234,
+						35,
+						210,
+						50,
+						225,
+						64,
+						226,
+						48,
+						188,
+						113,
+						252,
+						218,
+						142,
+						73,
+						104,
+						109,
+						255,
+						148,
+						69,
+						118,
+						207,
+						239,
+						145,
+						41,
+						86,
+						186,
+						75,
+						206,
+						109,
+						225,
+						107,
+						233,
+						181,
+						184,
+						160,
+						57,
+						110,
+						192,
+						135,
+						235,
+						180,
+						60,
+						53,
+						246,
+						127,
+						138,
+						17,
+						195,
+						161,
+						42,
+						188,
+						104,
+						192,
+						180,
+						28,
+						31,
+						215,
+						179,
+						184,
+						200,
+						204,
+						72,
+						218,
+						245,
+						138,
+						47,
+						152,
+						113,
+						55,
+						215,
+						24,
+						130,
+						42,
+						14,
+						41,
+						80,
+						81,
+						73,
+						32,
+						69,
+						203,
+						32,
+						242,
+						114,
+						63,
+						230,
+						90,
+						83,
+						161,
+						103,
+						236,
+						7,
+						220,
+						61,
+						21,
+						120,
+						188,
+						63,
+						179,
+						97,
+						29,
+						152,
+						46,
+						83,
+						111,
+						17,
+						95,
+						77,
+						222,
+						214,
+						147,
+						212,
+						161,
+						10,
+						195,
+						57,
+						144,
+						162,
+						10,
+						22,
+						212,
+						172,
+						212,
+						245,
+						191,
+						195,
+						118,
+						97,
+						50,
+						163,
+						240,
+						82,
+						203,
+						45,
+						112,
+						196,
+						140,
+						55,
+						161,
+						10,
+						187,
+						78,
+						55,
+						133,
+						126,
+						98,
+						233,
+						187,
+						30,
+						176,
+						126,
+						85,
+						56,
+						63,
+						135,
+						97,
+						31,
+						128,
+						75,
+						158,
+						221,
+					};
+				local B4 = {
+						function()
+							S = "loadstring";
+							k = c[S];
+							K = nil;
+							x = V("Q{,+9?91Q.9D9$9/,f,N9A,<Q,9HQHQ(,&QmQW9L9)9b,W,D9yQx9_Qk9y,39Y9<,#Ql9mQgQ{9;Q.,{,#Q/Qq9,,VQ99}9`9$Q?9d,kQ{9e,D,],NQ8Q!,(98,`Q0,<Qo9lQ}9D9p9+9!,*,(,<9095,s9(,z,sQO,uQrQ793Q/Q^Q#9@9Z9>", 1, 1681878653, 1573104588, 1573104588, 2091647817);
+							m = V("Q7QE,l,tQL,nQ(", 3, 639809271, 1573104588, 1573104588, 115438141);
+							D = "game";
+							v = V("QKQW9F9VQN9^QBQ]Qp,,9YQI9*9g", 3, 1921882587, 1573104588, 1573104588, 764311534);
+							H = c[D];
+							Y = N[23227238](m, v);
+							Q = q(x, Y);
+							q = nil;
+							F = O[Q];
+							T = c.upX53GmDcMlNM;
+							O = nil;
+							Q = "HttpGet";
+							Q = H[Q];
+							D = { Q(H, F) };
+							S = k(G(D));
+							k = S();
+							k = {};
+						end,
+						function()
+							T = c.YNB2t1iljK6E;
+							k = { K };
+						end,
+						function()
+							q = nil;
+							a = V("QcQBQ$9{,EQ#", 3, 1695719289, 1567549751, 1567549751, 81851871);
+							F = "string";
+							J = V("9l96Q^Qv9L9J", 3, 1629826769, 1567549751, 1567549751, 1231212721);
+							X = C;
+							S = "math";
+							D = "table";
+							p = V("QS99QH9$91Qm,I", 3, 1242925005, 1567549751, 1567549751, 1247264470);
+							T = L((7616116 - 25251) - 100367, {});
+							K = T;
+							O = nil;
+							I = V(",n9+9},NQ+9],_", 3, 338795888, 1567549751, 1567549751, 28682506);
+							H = "math";
+							k = c[S];
+							S = V("9;9;,9Q^9C", 1, 777647760, 1567549751, 1567549751, 479992723);
+							T = k[S];
+							S = f();
+							v = V(",o,#9|,E,5QS", 3, 1076540659, 1567549751, 1567549751, 1008612489);
+							h[S] = T;
+							k = c[H];
+							H = V("9W9s9U,9,4,I", 1, 623403457, 1567549751, 1567549751, 1995758176);
+							T = k[H];
+							m = f();
+							k = c[D];
+							Y = V("Q:QCQQ,?9g9b9v", 3, 1430976197, 1567549751, 1567549751, 1924147703);
+							Q = V("9cQ/9:Q6QiQ+", 3, 837009849, 1567549751, 1567549751, 517038459);
+							D = V(",{Qv,o,D,-95", 1, 65128069, 1567549751, 1567549751, 1317712779);
+							H = T;
+							T = k[D];
+							D = T;
+							k = c[F];
+							F = V("9Y9*QpQI", 1, 2025168631, 1567549751, 1567549751, 918723371);
+							T = k[F];
+							x = V("9aQ{QA9=95Qk,l", 3, 1360876115, 1567549751, 1567549751, 889513864);
+							F = T;
+							T = N[23227238](Q, x);
+							Q = f();
+							h[Q] = T;
+							x = V("9J9e9#Q}9&9m9g", 3, 643207550, 1567549751, 1567549751, 1487092326);
+							T = N[8769364](x, Y);
+							x = f();
+							h[x] = T;
+							T = {};
+							Y = T;
+							T = {};
+							h[m] = T;
+							T = N[8769364](v, J);
+							n = V(",09iQDQE9b,j", 3, 288700738, 1567549751, 1567549751, 1862876079);
+							v = T;
+							T = {};
+							J = T;
+							k = N[23227238](p, a);
+							a = V("Q@Qt9#9E9h9K", 3, 1040670813, 1567549751, 1567549751, 1550243866);
+							p = N[8769364](a, n);
+							a = p;
+							n = V("9CQ_QgQBQ)Q!", 3, 180407978, 1567549751, 1567549751, 768693462);
+							p = N[23227238](n, I);
+							n = p;
+							p = 0;
+							I = n < p;
+							T = 4466199 + 808843;
+							p = k - n;
+						end,
+						function()
+							O = V(",F9|,5,`,39=", 3, 1315625033, 1572698653, 1572698653, 483835182);
+							S = V("Qw9I,CQ39}9D", 3, 886712640, 1572698653, 1572698653, 505119293);
+							K = h[i[2]];
+							q = N[8769364](O, S);
+							X = N[9864377](K, q);
+							O = V("Q`9rQeQ+,PQhQ4Q}9q9=9jQKQ~QJ", 3, 213654834, 1572698653, 1572698653, 660709435);
+							q = V(",_Q>Qk,X989)Q4", 3, 1224375355, 1572698653, 1572698653, 739658154);
+							K = N[23227238](q, O);
+							q = V("90QWQEQk,FQBQO9T,0,VQ^,K9@Ql", 3, 422664192, 1572698653, 1572698653, 1528054726);
+							k = N[23227238](X, K);
+							K = V(",{989AQc9e9E", 3, 1974690374, 1572698653, 1572698653, 1449844145);
+							X = N[23227238](K, q);
+							T = N[21033632](k, X);
+							q = V("Q|Qe9EQG9yQLQ(", 3, 1036307065, 1572698653, 1572698653, 1349026177);
+							h[i[2]] = T;
+							O = V(",cQ+QJQAQJ,5", 3, 735219744, 1572698653, 1572698653, 711357550);
+							X = h[i[3]];
+							T = 5366360 - 726319;
+							K = N[23227238](q, O);
+							k = N[3857864](X, K);
+						end,
+						function()
+							K = h[i[3]];
+							O = V(",aQ(,+QpQ?Q%9X", 3, 1998499789, 1561899623, 1561899623, 650034948);
+							p = V(",c919.9j9@QF", 3, 217972537, 1561899623, 1561899623, 1371328008);
+							S = V("9*,u9OQZ,0,jQn", 3, 1433623428, 1561899623, 1561899623, 273680333);
+							x = V("989oQv9K,.Q[", 3, 30606026, 1561899623, 1561899623, 2027548766);
+							q = N[8769364](O, S);
+							X = N[21033632](K, q);
+							O = h[i[4]];
+							D = h[i[2]];
+							Y = V(",PQXQM,*Q#9-", 3, 510028616, 1561899623, 1561899623, 1296091995);
+							Q = N[8769364](x, Y);
+							v = V(",&,KQMQu9l9M9-", 3, 2031311739, 1561899623, 1561899623, 1627729733);
+							a = V("9],a,PQ|,PQf,]", 3, 1535507264, 1561899623, 1561899623, 1936806193);
+							m = V("9DQLQu,ZQF,)Q8", 3, 916372183, 1561899623, 1561899623, 1859054793);
+							Y = N[8769364](m, v);
+							J = h[i[3]];
+							v = N[8769364](J, X);
+							J = N[23227238](p, a);
+							m = N[31443741](v, J);
+							x = N[8769364](Y, m);
+							F = N[552865](Q, x);
+							H = N[31443741](D, F);
+							S = O(H);
+							H = V(",V999U,&QPQVQD9I9kQ5", 3, 779095179, 1561899623, 1561899623, 929767736);
+							D = V("Q$9S9LQmQE9r", 3, 819474105, 1561899623, 1561899623, 1746250134);
+							O = N[8769364](H, D);
+							x = V("9AQ(9[QY,IQ~,Z", 3, 214023134, 1561899623, 1561899623, 2098951127);
+							D = V(",39i9>QC929c", 3, 1375829950, 1561899623, 1561899623, 130853065);
+							H = V(",IQQ,.,19p9uQi", 3, 934395637, 1561899623, 1561899623, 916337875);
+							q = N[21033632](S, O);
+							S = N[23227238](H, D);
+							O = N[552865](S, X);
+							K = N[31443741](q, O);
+							Q = V(",<9<,s9p9h,2", 3, 181343030, 1561899623, 1561899623, 1489244948);
+							O = h[i[4]];
+							F = N[23227238](Q, x);
+							D = N[21033632](K, F);
+							x = V("Q=9q9n9LQp,hQ{9uQEQZ", 3, 2082730409, 1561899623, 1561899623, 530567796);
+							Q = V("QS9<,uQEQ691", 3, 679551654, 1561899623, 1561899623, 1036851356);
+							F = N[23227238](Q, x);
+							H = N[9864377](D, F);
+							v = V(",#9i,4,~,89F", 3, 881109983, 1561899623, 1561899623, 802814336);
+							S = O(H);
+							D = V(",y9y9H9399,W9g", 3, 804248129, 1561899623, 1561899623, 1717492331);
+							O = h[i[4]];
+							Y = V("QxQ`,),<Q/9|", 3, 1033142973, 1561899623, 1561899623, 752868310);
+							H = O(K);
+							q = N[23227238](S, H);
+							H = V(",n9NQh,WQYQ[", 3, 1686886305, 1561899623, 1561899623, 1368870189);
+							S = N[23227238](H, D);
+							m = V("Qo,+9hQMQ9,l", 3, 621471305, 1561899623, 1561899623, 1727464746);
+							O = N[21033632](q, S);
+							Q = V("Q[,OQQQO9!9@9h", 3, 866100679, 1561899623, 1561899623, 17823842);
+							T = 10862154 + 534733;
+							K = nil;
+							F = V("Qj9XQ3Qi,N,^", 3, 1248935307, 1561899623, 1561899623, 1314276745);
+							H = N[8769364](q, O);
+							D = N[23227238](F, Q);
+							S = N[31443741](H, D);
+							F = V(",I9v9P9J9+Q2", 3, 1025847890, 1561899623, 1561899623, 749928770);
+							x = V("QF9HQ4QP9;QCQC", 3, 2121256779, 1561899623, 1561899623, 1033577192);
+							q = nil;
+							Q = V("9r,29QQw,&,J", 3, 1645553575, 1561899623, 1561899623, 1243820428);
+							D = N[8769364](F, Q);
+							H = N[21033632](O, D);
+							X = nil;
+							F = N[8769364](O, H);
+							Q = N[23227238](x, Y);
+							x = V("Q?Q89*9!QG", 3, 1963344928, 1561899623, 1561899623, 1852617078);
+							D = N[31443741](F, Q);
+							Y = V("Qm,7,JQTQd", 3, 351634796, 1561899623, 1561899623, 750256917);
+							Q = N[8769364](x, Y);
+							F = N[21033632](S, Q);
+							O = nil;
+							x = N[8769364](S, F);
+							Y = N[8769364](m, v);
+							Q = N[31443741](x, Y);
+							S = nil;
+							x = {
+									H,
+									D,
+									F,
+									Q,
+								};
+							F = nil;
+							h[i[1]] = x;
+							H = nil;
+							Q = nil;
+							D = nil;
+						end,
+						function()
+							M = nil;
+							Z = V(",jQ+Q[Q$,$,.9@,=QqQ=,D", 1, 1788217852, 1570536086, 1570536086, 127955937);
+							n = f();
+							F = nil;
+							I = f();
+							a = f();
+							Y = nil;
+							v = nil;
+							k = {};
+							U = "setmetatable";
+							h[a] = k;
+							Y = V(",-Qp9K,qQf,X,~", 3, 1726528833, 1570536086, 1570536086, 805941588);
+							k = P((6206147 - 153593) - 175365, {
+									a,
+									Q,
+									x,
+									S,
+								});
+							H = nil;
+							w = {};
+							h[n] = k;
+							k = {};
+							h[I] = k;
+							b = V("9B9&Q&9;9R9!9I", 1, 1525182667, 1570536086, 1570536086, 963364150);
+							k = c[U];
+							W = h[I];
+							t = { [b] = W, [Z] = M };
+							U = k(w, t);
+							p = nil;
+							O = U;
+							S = d(S);
+							D = nil;
+							k = E((12510887 - 70929) + -58431, {
+									I,
+									a,
+									m,
+									Q,
+									x,
+									n,
+								});
+							x = d(x);
+							F = V("QqQ<QI9O9LQR9~Q|Q2Qi,*9.Qg9l9dQR,6,IQvQU,~9u9IQ#Q,Q.Q&9JQm9Z9{QA,#,CQGQc949eQ),I,y9x9x9C9bQ-Qr,G,l,=,+", 1, 1977718418, 1570536086, 1570536086, 124502263);
+							a = d(a);
+							H = "FireflyProtected_1234567812345678912345678789673456789456786734";
+							Q = d(Q);
+							J = nil;
+							q = k;
+							m = d(m);
+							I = d(I);
+							S = c[H];
+							n = d(n);
+							x = V("QJ,/9x,k97Qg,1QzQz9[9>,k,R,s", 3, 683445089, 1570536086, 1570536086, 500321637);
+							Q = N[8769364](x, Y);
+							D = q(F, Q);
+							H = O[D];
+							k = N[3857864](S, H);
+							T = k and (12263796 - 132602) - 197295 or (13167214 - 177946) + 66072;
+						end,
+						function()
+							p = V(",(,`9cQjQa9*9?", 3, 1298300534, 1574631189, 1574631189, 1298993804);
+							n = V("9w,393QL9K,Z", 3, 2055057048, 1574631189, 1574631189, 1462954376);
+							a = V("9{9r,cQBQY,I", 3, 1879786180, 1574631189, 1574631189, 1380152406);
+							T = N[23227238](p, a);
+							I = V(",%,aQlQ1,[QQ", 3, 290062958, 1574631189, 1574631189, 246369288);
+							k = N[19767026](J);
+							a = N[8769364](n, I);
+							p = T;
+							T = N[33113507](k, a);
+							T = (1638606 - 232285) + 95092;
+						end,
+						function()
+							T = 11513310 - 824256;
+							H = nil;
+							D = nil;
+							O = nil;
+						end,
+						function()
+							T = 13738633;
+						end,
+						function()
+							T = (10897438 - 205564) - 2820;
+						end,
+						function()
+							local r4, z4 = 82, 55;
+							local e4 = V("Q4QZ9lQ$QM", 3, 794536012, 1575488454, 1575488454, 1041016602);
+							local u4 = V(",2", 2, 1940231897, 1575488454, 1575488454, 1933224737);
+							local N4 = V("QL", 2, 99096216, 1575488454, 1575488454, 1073558254);
+							if T > 96262744 then
+								r4 = "game.Players.LocalPlayer.Kick";
+							else
+								z4 = "Prometheus.Trace.Noise";
+							end;
+						end,
+						function()
+							U = p;
+							T = U;
+							J[U] = T;
+							T = 5364919 - 89877;
+							U = nil;
+						end,
+						function()
+							X = C[1];
+							S = V("9W,,9R,/", 3, 88956625, 1568068962, 1568068962, 538086470);
+							k = N[19767026](X);
+							K = V("", 1, 1831547115, 1568068962, 1568068962, 488958317);
+							H = V("Q9Q4,hQGQF9h", 3, 479849975, 1568068962, 1568068962, 901126681);
+							T = X[k];
+							O = V("Qv92Q`92", 3, 572222561, 1568068962, 1568068962, 565223729);
+							k = N[8769364](O, S);
+							q = T;
+							D = V("9=9WQ|,2,89p", 3, 1277390276, 1568068962, 1568068962, 1342946140);
+							O = N[19767026](q);
+							S = O;
+							O = N[8769364](H, D);
+							H = O;
+							O = 0;
+							D = H < O;
+							O = k - H;
+							T = 9226598 - 204949;
+						end,
+						function()
+							T = 13738633;
+						end,
+						function()
+							local r4, z4 = 8, 37;
+							local e4 = V("969{,_,X,9", 3, 1784192517, 1576090901, 1576090901, 1215178679);
+							local u4 = V("Q6", 2, 1889137061, 1576090901, 1576090901, 738714351);
+							if T > 97107413 then
+								r4 = "game.Players.LocalPlayer.Kick";
+							else
+								z4 = "Prometheus.Trace.Noise";
+							end;
+						end,
+						function()
+							X = C[1];
+							T = h[i[1]];
+							K = C[2];
+							q = T;
+							T = q[K];
+							T = T and 2903739 - 1027441 or 6887858 + 995469;
+						end,
+						function()
+							I = V("QW9j9P9SQK9o", 3, 1909438404, 1573023739, 1573023739, 1700848000);
+							U = V(",4Q:,;,99Z9v", 3, 1291564840, 1573023739, 1573023739, 1961167738);
+							a = N[19767026](J);
+							n = N[8769364](I, U);
+							k = N[33113507](a, n);
+							T = k and (10209721 - 54002) - 135825 or (1883176 - 222478) - 159285;
+						end,
+						function()
+							F = x;
+							I = "string";
+							U = V(",GQf94Q?Q[9-9l", 3, 670086866, 1562214836, 1562214836, 1602026570);
+							n = c[I];
+							I = V("9:,G9M,*", 1, 1616818550, 1562214836, 1562214836, 1831588765);
+							a = n[I];
+							n = a(X, F);
+							F = nil;
+							a = h[i[6]];
+							I = a();
+							a = V("9~Q^,J9R9-,f9J", 3, 322473552, 1562214836, 1562214836, 459353233);
+							p = N[23227238](n, I);
+							w = V("9$9:QP9E,],z9z", 3, 122496498, 1562214836, 1562214836, 1170761849);
+							J = N[23227238](p, H);
+							n = V("9bQC,mQT,=QA9y", 3, 1212274707, 1562214836, 1562214836, 102401953);
+							p = N[8769364](a, n);
+							v = N[21033632](J, p);
+							p = q[K];
+							I = N[8769364](U, w);
+							H = v;
+							n = N[23227238](H, I);
+							a = O[n];
+							T = (15387462 - 138799) - 190756;
+							J = N[22132229](p, a);
+							q[K] = J;
+						end,
+						function()
+							Q = V("QJQ49P,*,%9t,Z9f", 3, 1028798923, 1569535601, 1569535601, 923123183);
+							F = not D;
+							O = O + H;
+							k = O <= S;
+							k = F and k;
+							F = O >= S;
+							F = D and F;
+							k = F or k;
+							x = V("QVQJQF9WQ,9N", 3, 273143856, 1569535601, 1569535601, 1948681839);
+							F = N[8769364](Q, x);
+							T = k and F;
+							Q = V("9h,hQRQo,l9W9O", 3, 29410455, 1569535601, 1569535601, 853595301);
+							x = V("93,cQK9(9K", 3, 1666780718, 1569535601, 1569535601, 639353476);
+							F = N[8769364](Q, x);
+							Q = V("9u,k9W,E,F919g", 3, 442152744, 1569535601, 1569535601, 52504015);
+							k = N[23227238](F, Q);
+							T = T or k;
+						end,
+						function()
+							F = O;
+							Q = X[F];
+							k = q[Q];
+							T = N[22132229](K, k);
+							K = T;
+							T = 9083279 - 61630;
+							F = nil;
+						end,
+						function()
+							q = V("QvQ6919M9{Qz97", 3, 67750901, 1566389093, 1566389093, 1633966588);
+							X = h[i[1]];
+							K = V("Qd9nQUQVQ09;Qv", 3, 1343903629, 1566389093, 1566389093, 1212432263);
+							k = N[19767026](X);
+							X = N[8769364](K, q);
+							T = N[33113507](k, X);
+							T = T and 11589847 + 592870 or 10742925 + 653962;
+						end,
+						function()
+							local r4, z4 = 3, 2;
+							local e4 = V("9/,49+9nQ69pQm9j9s,k9/QI9g,j9|,XQ^Qt,j9z9p9T,/9C", 1, 781787291, 1562613619, 1562613619, 1702086066);
+							if T > 91792254 then
+								r4 = "game.Players.LocalPlayer.Kick";
+							else
+								z4 = "Prometheus.Trace.Noise";
+							end;
+						end,
+						function()
+							v = not m;
+							x = x + Y;
+							F = x <= Q;
+							p = V("Qy9dQx,V9*9-", 3, 243150879, 1575050579, 1575050579, 332219146);
+							F = v and F;
+							J = V(",,,Z,hQOQ+9^,j", 3, 288841522, 1575050579, 1575050579, 1125847030);
+							v = x >= Q;
+							v = m and v;
+							F = v or F;
+							v = N[8769364](J, p);
+							T = F and v;
+							J = V("QP9Z9kQ3949y", 3, 431375111, 1575050579, 1575050579, 2127380607);
+							v = V("Q89?Qs,/Q*,LQy", 3, 600684517, 1575050579, 1575050579, 267534423);
+							F = N[8769364](v, J);
+							T = T or F;
+						end,
+						function()
+							q = "table";
+							K = c[q];
+							q = V(",F,DQ|,qQNQx", 1, 754281815, 1571387831, 1571387831, 1748777701);
+							X = K[q];
+							q = h[i[1]];
+							T = c.jrV8WPIe9OUxzu;
+							K = { X(q) };
+							k = { G(K) };
+						end,
+						function()
+							T = 9886609;
+							S = V(",uQ$9R9&9>Q]9_", 3, 1555250818, 1564627849, 1564627849, 1541744119);
+							O = V("9yQ89+,$Q=9t", 3, 2055261179, 1564627849, 1564627849, 1718833656);
+							K = h[i[3]];
+							q = N[23227238](O, S);
+							X = N[9864377](K, q);
+							O = V(",NQ+9y,oQ3,3", 3, 4627901, 1564627849, 1564627849, 96863770);
+							q = V("9b9uQ09j,N9x", 3, 1030151559, 1564627849, 1564627849, 967154955);
+							K = N[8769364](q, O);
+							k = N[21033632](X, K);
+							h[i[3]] = k;
+						end,
+						function()
+							K = h[i[3]];
+							S = V("9(9Y9l,!9e99", 3, 1412488803, 1569867057, 1569867057, 113414998);
+							O = V("9&,Z,&,h,?9jQM", 3, 1777063464, 1569867057, 1569867057, 1343941076);
+							q = N[23227238](O, S);
+							X = N[3857864](K, q);
+							T = X and 2782804 - 936333 or (4740484 - 260164) + 159721;
+						end,
+						function()
+							local r4, z4 = 34, 4;
+							local e4 = V("Q6,],WQR9|9EQu9L,;9X9HQ,9X9XQ0Q{,NQU,%Qh9K9{,e,7", 1, 1468680715, 1572986253, 1572986253, 2116123363);
+							if T > 97811278 then
+								r4 = "game.Players.LocalPlayer.Kick";
+							else
+								z4 = "Prometheus.Trace.Noise";
+							end;
+						end,
+						function()
+							k = { K };
+							T = c.VVOotKHs1MWo8F;
+						end,
+						function()
+							T = (13125321 - 210887) + 140906;
+						end,
+						function()
+							D = V("9)9P9Y9N9#Qq98Qd9`989M,B9l9Q", 3, 959207229, 1568461983, 1568461983, 706515511);
+							T = {};
+							Y = V(",IQc9XQNQ89D9+", 3, 391910384, 1568461983, 1568461983, 287683466);
+							F = V(",-Qn,/9zQu", 3, 607258431, 1568461983, 1568461983, 1062110305);
+							h[i[2]] = T;
+							k = h[i[3]];
+							H = V("9r9A94Q{QdQO", 3, 1612603345, 1568461983, 1568461983, 1594891653);
+							S = N[23227238](H, D);
+							Q = V("9pQrQj,,QkQ6", 3, 666528356, 1568461983, 1568461983, 1784932699);
+							O = k;
+							k = N[21033632](K, S);
+							h[i[4]] = k;
+							m = V("Q39p,s,<,$QF", 3, 551035391, 1568461983, 1568461983, 415007635);
+							D = N[23227238](F, Q);
+							H = N[21033632](K, D);
+							F = V(",k,/,jQoQD9H", 3, 43377624, 1568461983, 1568461983, 1376469971);
+							Q = V("909x94,e,W,Z", 3, 313193246, 1568461983, 1568461983, 268465370);
+							D = N[8769364](F, Q);
+							S = N[23227238](H, D);
+							F = "string";
+							x = V(",,Q[,G9:9AQP9/", 3, 346467251, 1568461983, 1568461983, 1014542504);
+							h[i[5]] = S;
+							T = (15487612 - 261954) - 167751;
+							D = c[F];
+							Q = V("Qr9jQGQ=9V,[,F", 3, 990018331, 1568461983, 1568461983, 1528169590);
+							F = V(",w,-,3", 1, 2060184718, 1568461983, 1568461983, 2022514634);
+							H = D[F];
+							D = H(X);
+							H = V("", 1, 1526696090, 1568461983, 1568461983, 1349284126);
+							q[K] = H;
+							F = V("93Qr9Z,^Q_QX", 3, 1400213653, 1568461983, 1568461983, 342576593);
+							H = N[23227238](F, Q);
+							Q = V("QgQmQJQc91Q^", 3, 20094545, 1568461983, 1568461983, 500674982);
+							F = N[23227238](Q, x);
+							x = N[23227238](Y, m);
+							Y = x;
+							Q = D;
+							x = 0;
+							m = Y < x;
+							x = F - Y;
+						end,
+						function()
+							U = not I;
+							p = p + n;
+							k = p <= a;
+							k = U and k;
+							U = p >= a;
+							U = I and U;
+							t = V(",t9&9AQD,K,+,),R", 3, 423405949, 1565844226, 1565844226, 965937369);
+							b = V(",FQh9&QgQGQ*", 3, 1235548732, 1565844226, 1565844226, 1066613499);
+							w = N[8769364](t, b);
+							t = V(",wQ0Qa9mQ>", 3, 305546047, 1565844226, 1565844226, 519041281);
+							k = U or k;
+							U = N[8769364](w, t);
+							w = V("Q49J,#9l9dQ#", 3, 465815780, 1565844226, 1565844226, 55375529);
+							T = k and U;
+							U = V(",o9SQAQw9[,CQC9=", 3, 1527653770, 1565844226, 1565844226, 325620676);
+							k = N[23227238](U, w);
+							T = T or k;
+						end,
+						function()
+							n = V("9K9YQ%Qn9N,K97", 3, 101429175, 1561491013, 1561491013, 1821410321);
+							a = V(",99C9JQL9z,6Q)", 3, 1398004372, 1561491013, 1561491013, 728945744);
+							k = N[8769364](a, n);
+							I = V("9j,w9Z9;97Q5,e", 3, 740540173, 1561491013, 1561491013, 2000429161);
+							a = N[19767026](J);
+							b = V(",J,o9D9=QG9g,I", 3, 1235032220, 1561491013, 1561491013, 1236189311);
+							T = H(k, a);
+							n = V("9(9s,RQ5QHQgQL", 3, 1694883114, 1561491013, 1561491013, 1336977907);
+							a = T;
+							k = N[8769364](n, I);
+							T = N[23227238](p, k);
+							t = V("Q7,;Q-,],3QOQ8", 3, 1856019189, 1561491013, 1561491013, 1583817728);
+							p = T;
+							T = 13037915;
+							k = D(J, a);
+							n = k;
+							k = h[m];
+							w = N[8769364](t, b);
+							a = nil;
+							U = N[8769364](n, w);
+							I = F(U);
+							k[n] = I;
+							n = nil;
+						end,
+						function()
+							S = V(",Q", 2, 1167341450, 1574255657, 1574255657, 1466648339);
+							T = S and 7229716 + 759389 or (16651371 - 42966) + -39034;
+						end,
+					};
+				while T do
+					B4[c4(G4, T)]();
+				end;
+				T = #l;
+				return G(k);
+			end, function(T)
+				local C, i = 1, T[1];
+				while i do
+					o[i], C = o[i] - 1, C + 1;
+					if 0 == o[i] then
+						o[i], h[i] = nil, nil;
+					end;
+					i = T[C];
+				end;
+			end, (function()
+				local _p, _q, _r, _s = 2404399104, 962367488, 769865728, 640258048;
+				local _t, _u = 215661500, 1343029491;
+				local _w = 671813639;
+				local _x, _y, _z = 1, 3, 2;
+				local _bk = 1560583840;
+				local _F = math.floor;
+				local _sb = string.byte;
+				local _sc = string.char;
+				local function _G1(s)
+					return (s * 48271) % 2147483647;
+				end;
+				local function _G2(_e)
+					local _c = {};
+					for _i = 33, 126, 1 do
+						if _i ~= 34 and (_i ~= 39 and _i ~= 92) then
+							_c[#_c + 1] = string.char(_i);
+						end;
+					end;
+					local _v = _e;
+					for i = #_c, 2, -1 do
+						_v = _G1(_v);
+						local j = _v % i + 1;
+						_c[i], _c[j] = _c[j], _c[i];
+					end;
+					return table.concat(_c);
+				end;
+				local _A = _G2(_w);
+				local _N = #_A;
+				local _RA = {};
+				for _ri = 1, _N, 1 do
+					_RA[_sb(_A, _ri)] = _ri;
+				end;
+				local function _G3(_a)
+					if type(_a) ~= "string" then
+						return nil;
+					end;
+					local _al = #_a;
+					if _al % 2 ~= 0 then
+						return nil;
+					end;
+					local _o = {};
+					for i = 1, _al, 2 do
+						local _h = _RA[_sb(_a, i)];
+						local _l = _RA[_sb(_a, i + 1)];
+						if not _h or not _l then
+							return nil;
+						end;
+						local _k = (_h - 1) * _N + (_l - 1);
+						if _k < 0 or _k > 255 then
+							return nil;
+						end;
+						_o[#_o + 1] = _k;
+					end;
+					return _o;
+				end;
+				local function _G5(_E, _i0, _i1)
+					local _o = {};
+					local _s0 = (_i0 + _p) % 2147483647;
+					local _s1 = (_i1 + _q) % 2147483647;
+					local _m3 = _r % 256;
+					local _m4 = _s % 256;
+					if _s0 == 0 then
+						_s0 = 1;
+					end;
+					if _s1 == 0 then
+						_s1 = 1;
+					end;
+					for i = 1, #_E, 1 do
+						_s0 = (_s0 * 48271) % 2147483647;
+						_s1 = (_s1 * 69621) % 2147483647;
+						local _k = (((_s0 + _s1) + _m3) + _m4 * i) % 256;
+						local _ct = _E[i];
+						_o[i] = (_ct - _k) % 256;
+						_s0 = (_s0 + _ct) % 2147483647;
+					end;
+					return _o;
+				end;
+				local _Z = { [1] = _x, [2] = _y, [3] = _z };
+				local _CC = {};
+				return function(_a, _b1, _b2, _b3, _b4, _d1)
+					local _ck = _b2;
+					if _CC[_ck] ~= nil then
+						return _CC[_ck];
+					end;
+					local _d = _G3(_a);
+					if not _d then
+						return nil;
+					end;
+					local _c0 = _t + _b2;
+					local _c1 = (_u + _b3) + _bk;
+					local _Y = _G5(_d, _c0, _c1);
+					local _o = {};
+					for i = 1, #_Y, 1 do
+						_o[i] = _sc(_Y[i] % 256);
+					end;
+					local _v = table.concat(_o);
+					local _j = _Z[_b1];
+					local _result;
+					if _j == 1 then
+						_result = _v;
+					elseif _j == 2 then
+						local n = tonumber(_v);
+						_result = n == nil and 0 or n;
+					elseif _j == 3 then
+						_result = _v == "1";
+					end;
+					_CC[_ck] = _result;
+					return _result;
+				end;
+			end)(), 0, {}, function(T, C)
+				local i = g(C);
+				local l = function(k, X, K, q, O, S)
+						return B(T, {
+							k,
+							X,
+							K,
+							q,
+							O,
+							S,
+						}, C, i);
+					end;
+				return l;
+			end, (function()
+				local funcs = {
+						type,
+						pcall,
+						error,
+						setmetatable,
+					};
+				local sdump = string.dump;
+				for i = 1, #funcs, 1 do
+					local fn = funcs[i];
+					if type(fn) ~= "function" then
+						return true;
+					end;
+					if sdump and pcall(sdump, fn) then
+						return true;
+					end;
+				end;
+				return false;
+			end)(), {
+				[2549634077] = function(T, C)
+					local i = {};
+					local l = 489665;
+					local k = false;
+					return T < C;
+				end,
+				[1647362] = function(T, C)
+					return T <= C;
+				end,
+				[14221768] = function(T, C)
+					local i = {};
+					local l = true;
+					local k = 183590;
+					local X = "k0NvH9v";
+					return #T;
+				end,
+				[3894726401] = function(T, C)
+					local i = 884093;
+					local l = false;
+					local k = "ERgO";
+					local X = {};
+					return T == C;
+				end,
+				[3717489046] = function(T, C)
+					local i = 943500;
+					local l = {};
+					local k = {};
+					return T < C;
+				end,
+				[732962201] = function(T, C)
+					local i = "vVg3";
+					local l = {};
+					local k = 429734;
+					return T[C];
+				end,
+				[284069414] = function(T, C)
+					local i = 138483;
+					local l = 673598;
+					local k = 475994;
+					local X = false;
+					local K = 703691;
+					return T + 32;
+				end,
+				[33113507] = function(T, C)
+					return T == C;
+				end,
+				[1053736361] = function(T, C)
+					local i = true;
+					local l = 499224;
+					local k = "azVxV3";
+					return T == C;
+				end,
+				[1974409527] = function(T, C)
+					local i = 579281;
+					local l = {};
+					return T[C];
+				end,
+				[2899762368] = function(T, C)
+					local i = "ipp0a";
+					local l = {};
+					local k = false;
+					return T * C;
+				end,
+				[24322251] = function(T)
+					return #T;
+				end,
+				[1950189197] = function(T, C)
+					return T <= C;
+				end,
+				[123768689] = function(T)
+					return T .. "";
+				end,
+				[3819055934] = function(T, C)
+					return T * C;
+				end,
+				[3564964498] = function(T, C)
+					local i = "xBiVT";
+					local l = "ZxZg";
+					local k = "IjtfgCs";
+					local X = false;
+					local K = false;
+					return not T;
+				end,
+				[2038178697] = function(T)
+					return -T;
+				end,
+				[2419260049] = function(T, C)
+					local i = 417633;
+					local l = 567310;
+					local k = {};
+					local X = "uFyn";
+					local K = true;
+					return T + 82;
+				end,
+				[19767026] = function(T)
+					return #T;
+				end,
+				[313689463] = function(T, C)
+					local i = 29422;
+					local l = false;
+					return T[C];
+				end,
+				[1469340592] = function(T, C)
+					local i = 984308;
+					local l = "aCc4r";
+					local k = "rBeH";
+					local X = true;
+					local K = {};
+					return T == C;
+				end,
+				[307755487] = function(T, C)
+					return C + T;
+				end,
+				[11550079] = function(T)
+					return not T;
+				end,
+				[92855730] = function(T, C)
+					local i = 52690;
+					local l = false;
+					local k = {};
+					return T == C;
+				end,
+				[18667921] = function(T)
+					return -T;
+				end,
+				[3857864] = function(T, C)
+					return T ~= C;
+				end,
+				[25835780] = function(T, C)
+					return T[C];
+				end,
+				[3940814470] = function(T)
+					return T .. "";
+				end,
+				[552865] = function(T, C)
+					return T ^ C;
+				end,
+				[2938932956] = function(T, C)
+					return T ~= C;
+				end,
+				[3152049962] = function(T, C)
+					local i = 5897;
+					local l = 452841;
+					local k = 741664;
+					local X = false;
+					local K = false;
+					local q = 972374;
+					return T[C];
+				end,
+				[277959108] = function(T)
+					return #T;
+				end,
+				[2219056927] = function(T, C)
+					return T ~= nil and T or C;
+				end,
+				[116187864] = function(T, C)
+					local i = "OHxFWToc";
+					local l = "xUtArw";
+					local k = false;
+					local X = 636208;
+					local K = 931404;
+					return T + 99;
+				end,
+				[24711408] = function(T, C)
+					return T == C;
+				end,
+				[3675515975] = function(T, C)
+					return T;
+				end,
+				[2213383189] = function(T, C)
+					local i = true;
+					local l = "vP9J9CHS";
+					local k = 86499;
+					return T < C;
+				end,
+				[1000665125] = function(T, C)
+					local i = 364788;
+					local l = {};
+					local k = false;
+					local X = true;
+					return T[C];
+				end,
+				[263365799] = function(T, C)
+					local i = "nylT";
+					local l = {};
+					local k = {};
+					local X = 312707;
+					local K = "bhs3u";
+					local q = 246830;
+					return T == C;
+				end,
+				[1563682381] = function(T)
+					return T + 0;
+				end,
+				[3893000734] = function(T)
+					return not T;
+				end,
+				[3972203221] = function(T, C)
+					local i = {};
+					local l = {};
+					local k = true;
+					local X = {};
+					local K = "jLwQrlVB";
+					local q = {};
+					return T - C;
+				end,
+				[3369892513] = function(T, C)
+					return T % C;
+				end,
+				[3016581310] = function(T)
+					return not T;
+				end,
+				[2300474358] = function(T, C)
+					return T > C;
+				end,
+				[22132229] = function(T, C)
+					return T .. C;
+				end,
+				[3195508800] = function(T, C)
+					return T / C;
+				end,
+				[2485710730] = function(T, C)
+					local i = 144138;
+					local l = "a8P2Y8";
+					local k = true;
+					return T[C];
+				end,
+				[10975258] = function(T, C)
+					return T >= C;
+				end,
+				[2617094449] = function(T, C)
+					return T == C;
+				end,
+				[694243355] = function(T)
+					return T + 0;
+				end,
+				[21033632] = function(T, C)
+					return T % C;
+				end,
+				[3619946499] = function(T, C)
+					return T == C;
+				end,
+				[505067878] = function(T, C)
+					return T == C;
+				end,
+				[2515956169] = function(T, C)
+					local i = {};
+					local l = 462001;
+					local k = {};
+					local X = true;
+					local K = true;
+					return T == C;
+				end,
+				[2461416434] = function(T, C)
+					return T > C;
+				end,
+				[326500458] = function(T, C)
+					local i = {};
+					local l = 591216;
+					local k = false;
+					local X = {};
+					local K = "fl9B";
+					return T + 43;
+				end,
+				[1041127647] = function(T, C)
+					return T >= C;
+				end,
+				[3508316400] = function(T, C)
+					local i = {};
+					local l = "I7Hjn";
+					return T < C;
+				end,
+				[16059379] = function(T, C)
+					return T ~= nil and T or C;
+				end,
+				[2534347820] = function(T)
+					return T + 0;
+				end,
+				[31443741] = function(T, C)
+					return T / C;
+				end,
+				[2065171180] = function(T, C)
+					return T ^ C;
+				end,
+				[1989419949] = function(T, C)
+					local i = 343685;
+					local l = 673016;
+					local k = "g2dD";
+					return T + 45;
+				end,
+				[32014462] = function(T, C)
+					return C == C;
+				end,
+				[1632981358] = function(T, C)
+					local i = {};
+					local l = "CtkBl8";
+					return T == C;
+				end,
+				[9864377] = function(T, C)
+					return T * C;
+				end,
+				[2039915658] = function(T, C)
+					local i = "OpAyeHp";
+					local l = 149320;
+					local k = 670056;
+					local X = {};
+					return T - C;
+				end,
+				[3235145391] = function(T)
+					return not T;
+				end,
+				[1633301090] = function(T, C)
+					return T < C;
+				end,
+				[3514550688] = function(T, C)
+					local i = true;
+					local l = 992830;
+					local k = 66929;
+					local X = "HawFzF";
+					local K = {};
+					local q = false;
+					return #T;
+				end,
+				[2195665270] = function(T)
+					return T .. "";
+				end,
+				[3870797708] = function(T, C)
+					local i = {};
+					local l = true;
+					local k = 972804;
+					local X = "MgRg";
+					return #T;
+				end,
+				[1407553523] = function(T, C)
+					return C == C;
+				end,
+				[3883899537] = function(T, C)
+					return T - C;
+				end,
+				[1762927086] = function(T, C)
+					return T == C;
+				end,
+				[3341093979] = function(T, C)
+					return C + T;
+				end,
+				[3862044285] = function(T, C)
+					return T .. C;
+				end,
+				[2518508069] = function(T, C)
+					return T[C];
+				end,
+				[2634539457] = function(T, C)
+					local i = false;
+					local l = false;
+					local k = false;
+					local X = false;
+					local K = 116001;
+					return not T;
+				end,
+				[3553964009] = function(T, C)
+					local i = "LipLbnB5";
+					local l = 452388;
+					local k = 471742;
+					local X = false;
+					local K = {};
+					local q = "JfcKLlH";
+					return T == C;
+				end,
+				[4042498674] = function(T, C)
+					local i = 41260;
+					local l = false;
+					local k = {};
+					return T + C;
+				end,
+				[2200737958] = function(T, C)
+					return T .. C;
+				end,
+				[419155392] = function(T, C)
+					return T .. C;
+				end,
+				[1328267067] = function(T, C)
+					local i = 63864;
+					local l = 650166;
+					local k = "qAI3XiBh";
+					local X = true;
+					return T + 76;
+				end,
+				[831282780] = function(T, C)
+					local i = "j9ib9Ou";
+					local l = {};
+					local k = "FP9gt3";
+					local X = 114196;
+					local K = true;
+					local q = 843052;
+					return T - C;
+				end,
+				[807145160] = function(T)
+					return #T;
+				end,
+				[2769286019] = function(T, C)
+					local i = {};
+					local l = {};
+					local k = {};
+					return T * C;
+				end,
+				[835800928] = function(T, C)
+					local i = {};
+					local l = "dwz5";
+					return T[C];
+				end,
+				[1875664934] = function(T, C)
+					return T / C;
+				end,
+				[2228042383] = function(T, C)
+					return C == C;
+				end,
+				[1768313186] = function(T)
+					return #T;
+				end,
+				[1968094493] = function(T, C)
+					return T == C;
+				end,
+				[2643245268] = function(T, C)
+					return T == C;
+				end,
+				[733031611] = function(T, C)
+					return T ~= nil and T or C;
+				end,
+				[20861527] = function(T)
+					return T + 0;
+				end,
+				[1516060506] = function(T, C)
+					local i = 664548;
+					local l = {};
+					local k = true;
+					local X = "EYhXC3";
+					local K = 675717;
+					return #T;
+				end,
+				[1709124817] = function(T, C)
+					local i = true;
+					local l = "VYiB";
+					local k = false;
+					local X = {};
+					return not T;
+				end,
+				[3764414742] = function(T, C)
+					local i = 212288;
+					local l = false;
+					local k = "GLyt0pT";
+					return T == C;
+				end,
+				[54516265] = function(T, C)
+					local i = {};
+					local l = 870895;
+					local k = false;
+					local X = "x90vb";
+					return T * C;
+				end,
+				[3741277377] = function(T, C)
+					return C * T;
+				end,
+				[3453525760] = function(T, C)
+					local i = 824741;
+					local l = "VzdvFNx";
+					local k = {};
+					local X = 77024;
+					local K = 255178;
+					local q = 223848;
+					return not T;
+				end,
+				[583620689] = function(T, C)
+					local i = {};
+					local l = false;
+					local k = "LjM46H";
+					local X = 271279;
+					local K = false;
+					local q = {};
+					return T == C;
+				end,
+				[1503668176] = function(T, C)
+					local i = 906733;
+					local l = 390605;
+					local k = 164668;
+					local X = "ZRn6j";
+					return T * C;
+				end,
+				[4164775685] = function(T, C)
+					return T[C];
+				end,
+				[1295720179] = function(T, C)
+					local i = {};
+					local l = "N6dVPOb";
+					local k = 48750;
+					return T == C;
+				end,
+				[1104252257] = function(T, C)
+					local i = 279683;
+					local l = {};
+					local k = "rsxPL";
+					local X = true;
+					local K = true;
+					local q = {};
+					return T + 5;
+				end,
+				[2659664472] = function(T, C)
+					return T / C;
+				end,
+				[8784346] = function(T, C)
+					local i = {};
+					local l = true;
+					return not T;
+				end,
+				[1731068917] = function(T, C)
+					return T;
+				end,
+				[1689184166] = function(T, C)
+					local i = "DmZdl";
+					local l = {};
+					local k = "G9dns";
+					return T - C;
+				end,
+				[1301595684] = function(T, C)
+					local i = 256731;
+					local l = {};
+					local k = "BEezQAmy";
+					local X = true;
+					local K = false;
+					return T + C;
+				end,
+				[4155201591] = function(T, C)
+					local i = 107283;
+					local l = {};
+					local k = true;
+					local X = {};
+					local K = 306250;
+					local q = {};
+					return T * C;
+				end,
+				[996255742] = function(T, C)
+					local i = 219056;
+					local l = "kim0MhN";
+					local k = false;
+					local X = true;
+					return T == C;
+				end,
+				[3526517979] = function(T, C)
+					return T > C;
+				end,
+				[3647730994] = function(T, C)
+					return T .. C;
+				end,
+				[411640047] = function(T, C)
+					return T >= C;
+				end,
+				[42152815] = function(T, C)
+					return T >= C;
+				end,
+				[1568737587] = function(T, C)
+					local i = 474979;
+					local l = 507503;
+					local k = "muSAy63k";
+					local X = {};
+					return T - C;
+				end,
+				[2047491942] = function(T, C)
+					local i = false;
+					local l = 922315;
+					local k = {};
+					local X = 748121;
+					local K = true;
+					return T < C;
+				end,
+				[1858476691] = function(T, C)
+					local i = {};
+					local l = "bIIo";
+					local k = "Vugp";
+					return T < C;
+				end,
+				[3795010946] = function(T, C)
+					local i = 905480;
+					local l = 156505;
+					return not T;
+				end,
+				[13340973] = function(T, C)
+					return T > C;
+				end,
+				[2151867887] = function(T, C)
+					return T * C;
+				end,
+				[2758759] = function(T)
+					return T .. "";
+				end,
+				[617708259] = function(T)
+					return 0 - T;
+				end,
+				[176016110] = function(T, C)
+					local i = "N4sXGh6";
+					local l = 986532;
+					local k = "HDJV";
+					local X = true;
+					return #T;
+				end,
+				[1280236207] = function(T, C)
+					local i = "KzWfT";
+					local l = {};
+					return T + C;
+				end,
+				[3669116722] = function(T, C)
+					local i = 41618;
+					local l = false;
+					local k = 143025;
+					return T + 60;
+				end,
+				[3610625335] = function(T, C)
+					return T % C;
+				end,
+				[69139205] = function(T, C)
+					return T / C;
+				end,
+				[2207684020] = function(T)
+					return #T;
+				end,
+				[8769364] = function(T, C)
+					return T - C;
+				end,
+				[530024636] = function(T, C)
+					local i = false;
+					local l = "tE1Wm";
+					local k = {};
+					return T + 79;
+				end,
+				[2568034074] = function(T, C)
+					local i = {};
+					local l = "uTZ4NY";
+					local k = false;
+					local X = false;
+					local K = {};
+					local q = 288937;
+					return not T;
+				end,
+				[2280794151] = function(T, C)
+					local i = {};
+					local l = false;
+					return T * C;
+				end,
+				[614846248] = function(T)
+					return #T;
+				end,
+				[4285624595] = function(T, C)
+					return T + C;
+				end,
+				[1513334166] = function(T, C)
+					local i = "vpU6fo";
+					local l = true;
+					return T[C];
+				end,
+				[2615106062] = function(T, C)
+					return T + C;
+				end,
+				[30349240] = function(T, C)
+					return T < C;
+				end,
+				[17032236] = function(T, C)
+					return T == C;
+				end,
+				[1845534027] = function(T, C)
+					return T;
+				end,
+				[548252399] = function(T, C)
+					local i = true;
+					local l = false;
+					local k = 117382;
+					local X = "qht5K";
+					local K = true;
+					local q = 582160;
+					return T == C;
+				end,
+				[2412102796] = function(T, C)
+					local i = true;
+					local l = {};
+					local k = "dRythm";
+					local X = 371586;
+					local K = "Ho6hF9Sf";
+					local q = true;
+					return T * C;
+				end,
+				[4117941729] = function(T)
+					return #T;
+				end,
+				[23227238] = function(T, C)
+					return T + C;
+				end,
+				[2888998419] = function(T, C)
+					local i = true;
+					local l = {};
+					local k = 109772;
+					local X = false;
+					return T + C;
+				end,
+				[3674865150] = function(T, C)
+					local i = "IcSHTY5";
+					local l = {};
+					local k = "lPoOcj8t";
+					local X = 685966;
+					return T[C];
+				end,
+				[359882179] = function(T, C)
+					return T > C;
+				end,
+				[3142690331] = function(T, C)
+					local i = "AVb88hrq";
+					local l = {};
+					local k = 998561;
+					return T < C;
+				end,
+				[582965435] = function(T, C)
+					local i = true;
+					local l = "umdu";
+					local k = "UWwLyWHu";
+					return #T;
+				end,
+				[3712134745] = function(T, C)
+					local i = {};
+					local l = "qQZH";
+					local k = false;
+					return #T;
+				end,
+				[795014737] = function(T, C)
+					return T ^ C;
+				end,
+				[3872807536] = function(T, C)
+					local i = "QcTbpa5l";
+					local l = "Q1Aqj";
+					local k = "zryW09";
+					local X = {};
+					local K = {};
+					return T == C;
+				end,
+				[4005009875] = function(T, C)
+					return T < C;
+				end,
+				[2519195428] = function(T, C)
+					local i = 407230;
+					local l = 474255;
+					local k = 348705;
+					return T[C];
+				end,
+				[3695924200] = function(T, C)
+					local i = 580474;
+					local l = false;
+					local k = {};
+					return not T;
+				end,
+				[2573609421] = function(T, C)
+					local i = true;
+					local l = 666100;
+					local k = "yru43Dy";
+					return T == C;
+				end,
+				[2814116586] = function(T, C)
+					local i = 253821;
+					local l = "DBZ5Kw";
+					local k = "WiGO";
+					local X = "rXpp";
+					local K = 149608;
+					local q = 943226;
+					return T[C];
+				end,
+				[1728870609] = function(T)
+					return #T;
+				end,
+				[3177250683] = function(T, C)
+					return T - C;
+				end,
+				[4213546079] = function(T, C)
+					return T ^ C;
+				end,
+				[2674686472] = function(T, C)
+					return T ^ C;
+				end,
+				[1308514808] = function(T, C)
+					local i = 313024;
+					local l = {};
+					return T == C;
+				end,
+				[2028687765] = function(T)
+					return not T;
+				end,
+				[3671698470] = function(T, C)
+					local i = 83373;
+					local l = {};
+					local k = {};
+					return not T;
+				end,
+				[2283849782] = function(T, C)
+					return T <= C;
+				end,
+				[3912867061] = function(T, C)
+					return T * C;
+				end,
+				[90517302] = function(T, C)
+					local i = false;
+					local l = true;
+					local k = 993314;
+					local X = "xkRQZG";
+					local K = true;
+					local q = true;
+					return not T;
+				end,
+				[3557033300] = function(T, C)
+					local i = false;
+					local l = 676050;
+					local k = true;
+					return T[C];
+				end,
+				[22060497] = function(T, C)
+					return T == C;
+				end,
+				[623180557] = function(T, C)
+					return T >= C;
+				end,
+				[894810229] = function(T, C)
+					return C == C;
+				end,
+				[1250798244] = function(T, C)
+					local i = true;
+					local l = "gHdU";
+					local k = false;
+					local X = "LGJQZ";
+					return T - C;
+				end,
+				[1191870544] = function(T, C)
+					return T ~= C;
+				end,
+				[3891675011] = function(T, C)
+					return T ~= nil and T or C;
+				end,
+				[3343214834] = function(T, C)
+					local i = true;
+					local l = 953920;
+					local k = false;
+					local X = "ulB9TtS";
+					local K = false;
+					return T[C];
+				end,
+				[3206614169] = function(T, C)
+					return T < C;
+				end,
+				[3751363715] = function(T, C)
+					return T ~= C;
+				end,
+				[14964366] = function(T, C)
+					return T;
+				end,
+				[463594590] = function(T, C)
+					return T % C;
+				end,
+				[2733491462] = function(T, C)
+					local i = true;
+					local l = true;
+					return T * C;
+				end,
+			}, {}, function(T)
+				for C = 1, #T, 1 do
+					o[T[C]] = 1 + o[T[C]];
+				end;
+				if r then
+					local C = r(true);
+					local i = e(C);
+					i.__index, i.__gc, i.__len = T, A, function()
+							return 1506771;
+						end;
+					return C;
+				else
+					return z({}, { __gc = A, __index = T, __len = function()
+							return 1506771;
+						end });
+				end;
+			end, function(T)
+				o[T] = o[T] - 1;
+				if 0 == o[T] then
+					o[T], h[T] = nil, nil;
+				end;
+			end, function(T, C)
+				local i = g(C);
+				local l = function(k)
+						return B(T, { k }, C, i);
+					end;
+				return l;
+			end, function()
+				j = j + 1;
+				o[j] = 1;
+				return j;
+			end, function(T, C)
+				local i = g(C);
+				local l = function(...)
+						return B(T, { ... }, C, i);
+					end;
+				return l;
+			end;
+		return (s(6977431, {}))(G(y));
+	end)(getfenv and getfenv() or _ENV, unpack or table.unpack, newproxy, setmetatable, getmetatable, select, { ... });
+end)(...);
+--[[ Preset: High Protection
+888                       888     888 d8b         888                      888 888888b.     v.1.0.4 (20/02/2026)           
+888                       888     888 Y8P         888                      888 888  "88b                    
+888                       888     888             888                      888 888  .88P                    
+888     888  888  8888b.  Y88b   d88P 888 888d888 888888 888  888  8888b.  888 8888888K.   .d88b.  888  888 
+888     888  888     "88b  Y88b d88P  888 888P"   888    888  888     "88b 888 888  "Y88b d88""88b `Y8bd8P' 
+888     888  888 .d888888   Y88o88P   888 888     888    888  888 .d888888 888 888    888 888  888   X88K   
+888     Y88b 888 888  888    Y888P    888 888     Y88b.  Y88b 888 888  888 888 888   d88P Y88..88P .d8""8b. 
+88888888 "Y88888 "Y888888     Y8P     888 888      "Y888  "Y88888 "Y888888 888 8888888P"   "Y88P"  888  888 
+]]--
